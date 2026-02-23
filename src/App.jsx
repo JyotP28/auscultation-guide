@@ -13,8 +13,13 @@ function App() {
     { title: "Aortic Regurgitation", audioPath: "/audio/aortic_regurgitation.mp3", clinicalNote: "Diastolic decrescendo 'sighing' murmur. Look for bounding pulses." },
     { title: "Mitral Regurgitation", audioPath: "/audio/mitral_regurgitation.mp3", clinicalNote: "Holosystolic plateau murmur. Most common in small breeds; loudest at the left apex." },
     { title: "Mitral Stenosis", audioPath: "/audio/mitral_stenosis.mp3", clinicalNote: "Rare in dogs. A diastolic rumble best heard at the left apex with the bell." },
-    { title: "PDA", audioPath: "/audio/patent_ductus_arteriosus.mp3", clinicalNote: "Continuous 'machinery' murmur heard throughout both systole and diastole." },
+    { title: "Patent Ductus Arteriosus (PDA)", audioPath: "/audio/patent_ductus_arteriosus.mp3", clinicalNote: "Continuous 'machinery' murmur heard throughout both systole and diastole." },
+    { title: "Atrial Fibrillation", audioPath: "/audio/atrial_fibrillation.mp3", clinicalNote: "Rapid, irregularly irregular rhythm. Often described as sounding like 'shoes in a dryer.' Pulse deficits are frequently present." },
+    { title: "Mitral Valve Prolapse with Late Systolic Click", audioPath: "/audio/mitral_valve_prolapse_late-systolic_click.mp3", clinicalNote: "Mid-to-late systolic click. Often an early indicator of myxomatous mitral valve disease (endocardiosis) before a murmur develops." },
+    { title: "Respiratory Arrhythmia", audioPath: "/audio/respiratory_arrythmia.mp3", clinicalNote: "Normal physiological finding in dogs. The heart rate increases during inspiration and decreases during expiration." },
+    { title: "Ventricular Septal Defect (VSD)", audioPath: "/audio/ventricular_septal_defect.mp3", clinicalNote: "Harsh holosystolic murmur. Paradoxically, it is loudest on the right cranial sternal border despite being a left-to-right shunt." },
   ];
+  
 
   useEffect(() => {
     if (isQuizMode) {
